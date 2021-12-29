@@ -1,3 +1,11 @@
+"""
+Functions imported as a module in the jupyter notebooks
+Last edited: 29 Dec. 2021
+
+By M. Bergström, S. Ledain, R. Miazza
+"""
+
+
 import numpy as np
 from skimage.io import imsave, imread
 from skimage.segmentation import slic
