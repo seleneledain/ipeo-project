@@ -24,7 +24,7 @@ Studying glaciers is essential in monitoring climate change and understanding th
 
   |--- **EO_Browser_images-date**: Contains data for that date.\
   |--- **EO_Browser_images_KLI-date**: Contains data on the Klinaklini glacier for that date.\
-  |--- **gt**: Contains the ground truth files named `GT_marker_date.tif` or `GT_KLI_date.tif` for the Klinaklini glacier.\
+  |--- **gt**: Contains the ground truth files named `GT_marker_date.tif` or `GT_KLI_date.tif` for the Klinaklini glacier.
   
 Each of the **EO_Browser_images-date** contains the following raw images:\
 * B02.tiff
