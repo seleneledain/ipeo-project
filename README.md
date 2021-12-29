@@ -6,7 +6,7 @@ Fall 2021 - Final Project
 
 ## About
 
-Studying glaciers is essential in monitoring climate change and understanding the role that humans play in accelerating global warming. This study aims at developing semantic segmentation models, which are based on ensemble methods and namely decision trees, to map the McBride glacier in Alaska, known to have experienced an important shrinking. By outputting "glacier" or "not glacier", the change in surface could be calculated. Furthermore, the models could provide new insights on the importance of features for glacier monitoring as such information is inherent to decision trees. This could also help assess other existing methods and the features that are currently used. The two models proposed and compared are a Random Forest and a Gradient Boosting model.
+Studying glaciers is essential in monitoring climate change and understanding the role that humans play in accelerating global warming. This study aims at developing semantic segmentation models, which are based on ensemble methods and namely decision trees, to map the McBride glacier in Alaska, known to have experienced an important shrinking. By outputting "glacier" or "not glacier", the change in surface could be calculated. Furthermore, the models could provide new insights on the importance of features for glacier monitoring as such information is inherent to decision trees. This could also help assess other existing methods and the features that are currently used. Models based on Random Forest and Gradient Boosting are developed, evaluated and proposed.
 
 ## Project directory 
 
@@ -26,7 +26,7 @@ Studying glaciers is essential in monitoring climate change and understanding th
   |--- **EO_Browser_images_KLI-date**: Contains data on the Klinaklini glacier for that date.\
   |--- **gt**: Contains the ground truth files named `GT_marker_date.tif` or `GT_KLI_date.tif` for the Klinaklini glacier.
   
-Each of the **EO_Browser_images-date** contains the following raw images:\
+Each of the **EO_Browser_images-date** contains the following raw images:
 * B02.tiff
 * B03.tiff
 * B04.tiff
@@ -41,7 +41,7 @@ Each of the **EO_Browser_images-date** contains the following raw images:\
 
 Data was downloaded from the [Sentinel Hub EO Browser](https://apps.sentinel-hub.com/eo-browser/). The ground truth were hand labelled from images using QGIS.
 
-The data necessary to run the project can be downloaded [here.](https://drive.google.com/drive/folders/1B_3tv_uJuDsumA87xexR0jrAJXqiS6Br?usp=sharing). Rename this folder as "data" and place it as indicated in the **Project directory** above to start running the code.
+The data necessary to run the project can be downloaded [here.](https://drive.google.com/drive/folders/1B_3tv_uJuDsumA87xexR0jrAJXqiS6Br?usp=sharing) Rename this folder as "data" and place it as indicated in the **Project directory** above to start running the code.
 
 
 ## How to run the code 
