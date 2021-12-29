@@ -2,7 +2,7 @@
 
 Contributors: Maxwell Bergström, Sélène Ledain, Raphaël Miazza\
 Image Processing for Earth Observation ENV-540\
-Fall 2021 - Final Project\
+Fall 2021 - Final Project
 
 ## About
 
@@ -11,12 +11,15 @@ Studying glaciers is essential in monitoring climate change and understanding th
 ## Project directory 
 
 :file_folder: 
+
   |--- **GB_glacier.ipynb**: Notebook containing developed Gradient Boosting models.\
   |--- **RF_glacier.ipynb**: Notebook containing developed Random Forest models.\
   |--- **helper_functions.py**: Script imported as a module in the notebooks, containing functions used.\
   |--- **data**: 
   
  The data folder contains the initial data used in both notebooks
+ 
+ 
 :file_folder: **data**
 
   |--- **EO_Browser_images-date**: Contains data for that date.\
@@ -36,14 +39,14 @@ Each of the **EO_Browser_images-date** contains the following raw images:\
 
 ## Data
 
-Data was downloaded from the [Sentinel Hub EO Browzer](https://apps.sentinel-hub.com/eo-browser/). The ground truth were hand labelled from images using QGIS.
+Data was downloaded from the [Sentinel Hub EO Browser](https://apps.sentinel-hub.com/eo-browser/). The ground truth were hand labelled from images using QGIS.
 
 The data necessary to run the project can be downloaded [here.](https://drive.google.com/drive/folders/1B_3tv_uJuDsumA87xexR0jrAJXqiS6Br?usp=sharing). Rename this folder as "data" and place it as indicated in the **Project directory** above to start running the code.
 
 
 ## How to run the code 
 
-Specific models requires : 
+Specific modules that are requires are: 
 
 * numpy
 * skimage
